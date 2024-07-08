@@ -4,7 +4,7 @@
   </transition>
   <div class="main">
     <Banner />
-    <StoriesMain />
+    <!-- <StoriesMain /> -->
     <Heading />
     <ExDiscountSlider :discountsContent="discountsContent" />
     <Beautiful :beat="beatObj" />

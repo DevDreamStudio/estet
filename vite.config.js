@@ -10,7 +10,7 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/estetic',
+  base: '/estet',
   css: {
     devSourcemap: true,
   },
@@ -24,6 +24,6 @@ export default defineConfig({
       "@assets": fileURLToPath(new URL("./src/assets",
         import.meta.url)),
     },
-    
+
   },
 });
